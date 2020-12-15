@@ -30,7 +30,7 @@ const AddMovie = () => {
                 </div>
                 <div className="form-group">
                     <label htmlFor="InputPrice">Price</label>
-                    <input type="text" className="form-control" id="InputPrice" name="price" value={price} onChange={updatePrice} aria-describedby="price" placeholder="Enter Price" />
+                    <input type="number" className="form-control" id="InputPrice" name="price" value={price} onChange={updatePrice} aria-describedby="price" placeholder="Enter Price" />
                 </div>
                 <button type="submit" className="btn btn-primary">Submit</button>
             </form>    
