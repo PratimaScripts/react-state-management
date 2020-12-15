@@ -7,6 +7,7 @@ const AddMovie = () => {
 
     const [movies, setMovies] = useContext(MovieContext)
 
+    console.log(movies);
     const updateName = (e) => {
         setName(e.target.value)
     }
