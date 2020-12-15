@@ -12,7 +12,7 @@ function App() {
           <Nav />
           <div className="row">
             <div className="col-6">
-              <h3>Add Movie</h3>
+              <h3>Add Movies</h3>
               <AddMovie />
             </div>
             <div className="col-6">
