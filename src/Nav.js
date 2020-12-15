@@ -7,7 +7,7 @@ const Nav = () => {
     return (
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container">
-                    <a className="navbar-brand" href="/" >Pratima Gautam</a>
+                    <a className="navbar-brand" href="/" >Movies App</a>
                     <span className="navbar-brand" style={{marginRight: "10%"}}>
                         List of the Movies: {movies.length}
                     </span>
